@@ -41,5 +41,19 @@ html {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    min-height: 24;
+    min-height: 24px;
+}
+
+/* Text-Design */
+.navigator a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+/* Button-"Animation" */
+.navigator a:hover {
+    background-color: #555;
+    border-radius: 4px;
 }
