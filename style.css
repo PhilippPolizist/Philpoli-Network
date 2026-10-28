@@ -1,0 +1,45 @@
+/* style.css - Globale Design-Einstellungen */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: inline-block;
+    min-width: 300px;
+}
+
+.server-card {
+    background-color: rgb(10, 33, 136);
+    max-width: 1000px;
+    margin: -50px auto 0 auto; /* Schiebt die Karte 50 Pixel nach oben über das Banner */
+    padding: 30px;
+    border-radius: 10px; /* Abgerundete Ecken */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Der weiche Schatten */
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navigator {
+    position: relative;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-height: 24;
+}
